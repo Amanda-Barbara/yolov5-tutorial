@@ -19,7 +19,7 @@ RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # Copy contents
-COPY . /usr/src/app
+COPY yolov5 /usr/src/app
 
 # Downloads to user config dir
 ADD https://ultralytics.com/assets/Arial.ttf /root/.config/Ultralytics/
